@@ -5,57 +5,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-
-body {
-  margin: 0;
-  padding: 0;
-  background-color: rgb(239, 254, 254);
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
 }
-
-h2, p {
-  margin: 10px;
+body{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-color: rgba(200, 229, 255, 0.671);
+  justify-content: center;
 }
+.container{
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  padding: 50px;
+  border: 2px solid rgb(29, 29, 29);
+  border-radius: 5px;
+  background-color: rgb(170, 218, 255);
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #7e7e7e;
+
 }
+input{
+  margin: 5px 0px;
+  height: 35px;
+  padding: 7px;
 
-ul li {
-  float: left;
 }
-
-ul li a {
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+button{
+  height: 35px;
+  margin: 5px 0px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 5px ;
+  color: #000000;
 }
-
-ul li a:hover {
-  background-color: #111112;
+button:hover{
+  background-color: #000000;
+  color: #ffffff;
+ 
 }
-
 </style>
 </head>
 <body>
-    <ul>
-  <li><a href="#home">Home</a></li>
-  <li><a href="#news">News</a></li>
-  <li><a href="#contact">Contact</a></li>
-  <li><a href="#about">About</a></li>
-</ul>
+  
 
-<div1>User name</div1>
-<div></div>
-<div1>password</div1>
-<div></div>
-    <div>Forgot password</div>
+<div class="container">
+  <input type="email"
+  placeholder="email">
+  <input type="password"
+  placeholder="password">
+  <button>Login</button>
+</div>
 
-    <h>tommorow has to update the login page</h>
+    
 </body>
 </html>
