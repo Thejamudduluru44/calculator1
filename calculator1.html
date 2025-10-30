@@ -4,62 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-*{
-  margin: 0%;
-  padding: 0%;
-  box-sizing: border-box;
-}
-body{
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  background-color: rgba(200, 229, 255, 0.671);
-  justify-content: center;
-}
-.container{
-  display: flex;
-  flex-direction: column;
-  width: 400px;
-  padding: 50px;
-  border: 2px solid rgb(29, 29, 29);
-  border-radius: 5px;
-  background-color: rgb(170, 218, 255);
-
-
-}
-input{
-  margin: 5px 0px;
-  height: 35px;
-  padding: 7px;
-
-}
-button{
-  height: 35px;
-  margin: 5px 0px;
-  background-color: rgb(255, 255, 255);
-  border: 1px solid rgb(0, 0, 0);
-  border-radius: 5px ;
-  color: #000000;
-}
-button:hover{
-  background-color: #000000;
-  color: #ffffff;
- 
-}
-</style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  
-
-<div class="container">
-  <input type="email"
-  placeholder="email">
-  <input type="password"
-  placeholder="password">
-  <button>Login</button>
-</div>
-
-    
+  <header>
+    <h2 class="logo">Logo</h2>
+    <nav class="navigation">
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Contact</a>
+      <button class="btnlogin-popup">Login</button>
+    </nav>
+  </header>
 </body>
 </html>
