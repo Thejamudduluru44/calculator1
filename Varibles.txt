@@ -27,3 +27,6 @@
    
 
 to check the changes was done or not
+
+
+from github changing the data to check wheather the commands are working or not
