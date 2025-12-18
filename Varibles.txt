@@ -24,3 +24,6 @@
 
 9️⃣ git push origin branchName
 ➡ Pushes the committed changes from your local branch to the remote repository. Replace branchName with the actual branch name.
+
+
+now we got push
